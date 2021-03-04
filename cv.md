@@ -29,6 +29,12 @@
   1. ['Raskat'](https://oao-raskat.ru/about/)
   1. [Scientific and Production Association 'Krista'](https://www.krista.ru/)  
   2. [Tensor Itd.](https://tensor.ru/)  
-    
-  
 
+
+* **Education**:  
+  Engineering professional with a Engineer's degree focused in computing
+  systems from Rybinsk State Aviation Technological Academy named
+  after P. A. Solovyov.
+
+
+* **English language** proficiency level - upper-intermediate
