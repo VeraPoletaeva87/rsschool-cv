@@ -10,19 +10,34 @@
 .cv-photo {
     height: 200px;
     width: 180px;
-    border: black 2px solid;
+    border: rgba(91,99,121,0.8) 2px solid;
+    margin-right: 20px;
 }
 
 .cv-contacts-block {
     display: flex;
-    align-items: baseline;
 }
 
 .cv-contacts-header {
-    margin-right: 20px;
-    margin-left: 20px;
 }
 
 .cv-info-block {
     width: 600px;
+}
+
+.cv-text-color {
+    color: #343648;
+}
+
+.cv-flex-baseline {
+    display: flex;
+    align-items: baseline;
+}
+
+.cv-margin-right {
+    margin-right: 12px;
+}
+
+.cv-margin-bottom {
+    margin-bottom: 80px;
 }
