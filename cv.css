@@ -1,0 +1,43 @@
+.cv-main-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.cv-photo {
+    height: 200px;
+    width: 180px;
+    border: rgba(91,99,121,0.8) 2px solid;
+    margin-right: 20px;
+}
+
+.cv-contacts-block {
+    display: flex;
+}
+
+.cv-contacts-header {
+}
+
+.cv-info-block {
+    width: 600px;
+}
+
+.cv-text-color {
+    color: #343648;
+}
+
+.cv-flex-baseline {
+    display: flex;
+    align-items: baseline;
+}
+
+.cv-margin-right {
+    margin-right: 12px;
+}
+
+.cv-margin-bottom {
+    margin-bottom: 80px;
+}
