@@ -1,0 +1,5 @@
+.cv-main-block {
+    display: flex;
+    align-self: center;
+    width: 550px;
+}
