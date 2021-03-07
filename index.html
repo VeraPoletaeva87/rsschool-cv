@@ -9,21 +9,28 @@
 </head>
 <body>
 <div class="cv-main-block">
-    <div class="cv-contacts-block">
+    <header class="cv-flex-block">
         <img class="cv-photo" alt="My photo" src="photo.JPG">
         <div>
-            <h2 class="cv-text-color cv-margin-bottom">Vera Poletaeva</h2>
-            <h4 class="cv-contacts-header cv-text-color">
+            <h1 class="cv-text-color cv-margin-bottom">Vera Poletaeva</h1>
+            <h2 class="cv-text-color">
                 Contacts:
-            </h4>
-            <div class="cv-small-text-color">e-mail: poletaeva.vera.vladimirovna@gmail.com</div>
+            </h2>
+            <ul>
+                <li class="cv-small-text-color">
+                    <a href="mailto:poletaeva.vera.vladimirovna@gmail.com">e-mail</a>
+                </li>
+                <li class="cv-small-text-color">
+                    <a href="https://t.me/verapoletaeva87">Telegram</a>
+                </li>
+            </ul>
         </div>
-    </div>
-    <div class="cv-info-block">
+    </header>
+    <main class="cv-info-block">
         <h4 class="cv-text-color">
             About me:
         </h4>
-        <div class="cv-small-text-color">
+        <article class="cv-small-text-color">
             I received a specialty related to computing systems at the aviation academy in Rybinsk.
             I have been working as a programmer since 2008.
             I developed a cost accounting system for the production of road vehicle parts.
@@ -32,16 +39,17 @@
             printed forms and reports.
             Now I'm a frontend developer.
             I like to learn something new.
-        </div>
-        <h4 class="cv-text-color">
-            I worked with:
-        </h4>
-        <ul>
-            <li class="cv-small-text-color">Delphi, SQL , Interbase, DbExpress</li>
-            <li class="cv-small-text-color">C++, Visual Studio</li>
-            <li class="cv-small-text-color">Birt, SQL, PostgreSQL, Drools, JBPM, JavaScript</li>
-            <li class="cv-small-text-color">Git, HTML, CSS, less, TypeScript, Wasaby Framework</li>
-        </ul>
+        </article>
+        <details>
+            <summary class="cv-text-color cv-bold-font">I worked with:</summary>
+            <ul>
+                <li class="cv-small-text-color">Delphi, SQL , Interbase, DbExpress</li>
+                <li class="cv-small-text-color">C++, Visual Studio</li>
+                <li class="cv-small-text-color">Birt, SQL, PostgreSQL, Drools, JBPM, JavaScript</li>
+                <li class="cv-small-text-color">Git, HTML, CSS, less, TypeScript, Wasaby Framework</li>
+            </ul>
+        </details>
+
         <div class="cv-flex-baseline">
             <div class="cv-margin-right">The code examples located here:</div>
             <a href="https://github.com/VeraPoletaeva87/songbird">songbirdApp</a>
@@ -67,11 +75,21 @@
             <h4 class="cv-text-color cv-margin-right">
                 English language proficiency level:
             </h4>
+            <h5>B2</h5>
             <div class="cv-small-text-color">
-                upper-intermediate
+                (upper-intermediate)
             </div>
         </div>
-    </div>
+    </main>
 </div>
+<footer class="cv-flex-block cv-align-center">
+    <a href="https://github.com/VeraPoletaeva87/rsschool-cv">
+        <img class="cv-github-icon cv-margin-right" alt="My GitHub" src="github.png" title="Go to my GitHub">
+    </a>
+    <h3 class="cv-margin-right">2021</h3>
+    <a href="https://rs.school/">
+        <img class="cv-github-icon" alt="Rs school" src="rs_school_logo.png" title="Rs school">
+    </a>
+</footer>
 </body>
 </html>
