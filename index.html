@@ -6,6 +6,17 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- External CSS -->
     <link rel="stylesheet" href="cv.css">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        body {
+            overflow: auto; /* добавить полосу прокрутки */
+        }
+    </style>
 </head>
 <body>
 <div class="cv-main-block">
@@ -40,20 +51,20 @@
             Now I'm a frontend developer.
             I like to learn something new.
         </article>
-        <details>
-            <summary class="cv-text-color cv-bold-font">I worked with:</summary>
+        <section>
+            <div class="cv-text-color cv-bold-font">I worked with:</div>
             <ul>
                 <li class="cv-small-text-color">Delphi, SQL , Interbase, DbExpress</li>
                 <li class="cv-small-text-color">C++, Visual Studio</li>
                 <li class="cv-small-text-color">Birt, SQL, PostgreSQL, Drools, JBPM, JavaScript</li>
                 <li class="cv-small-text-color">Git, HTML, CSS, less, TypeScript, Wasaby Framework</li>
             </ul>
-        </details>
+        </section>
 
-        <div class="cv-flex-baseline">
+        <section class="cv-flex-baseline">
             <div class="cv-margin-right">The code examples located here:</div>
             <a href="https://github.com/VeraPoletaeva87/songbird">songbirdApp</a>
-        </div>
+        </section>
         <h4 class="cv-text-color">
             Work experience:
         </h4>
