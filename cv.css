@@ -5,6 +5,7 @@
     background-color: aliceblue;
     margin-left: 10%;
     margin-right: 10%;
+    height: calc(100% - 60px);
 }
 
 .cv-photo {
